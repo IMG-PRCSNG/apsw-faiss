@@ -1,0 +1,11 @@
+name: apsw-faiss
+channels:
+  - nodefaults
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python
+  - faiss-cpu
+  - pip:
+    - -r requirements.txt
